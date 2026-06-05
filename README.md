@@ -133,6 +133,9 @@ streamlit run app.py
 * Automated model retraining
 * Real-time monitoring dashboard
 
+## App Link : 
+https://ev-energy-demand-prediction.onrender.com/
+
 ---
 
 ## Author
