@@ -1,55 +1,67 @@
-# EV Energy Demand Prediction
+# ⚡ EV Energy Demand Prediction
 
-## Overview
+## 🚀 Live Demo
 
-EV Energy Demand Prediction is a Machine Learning and Deep Learning application designed to forecast electric vehicle energy demand. The system helps support efficient charging station management and energy planning by predicting future energy requirements based on various operational and environmental factors.
-
-The project features an interactive Streamlit dashboard that enables users to visualize data insights and generate demand predictions.
+🔗 **Application:** https://ev-energy-demand-prediction.onrender.com/
 
 ---
 
-## Problem Statement
+## 📌 Overview
 
-The rapid growth of electric vehicles has increased the demand for reliable charging infrastructure and efficient energy distribution. Accurate energy demand forecasting is essential to avoid overloading resources, optimize charging station operations, and support sustainable energy management.
+EV Energy Demand Prediction is a Machine Learning and Deep Learning application designed to forecast Electric Vehicle (EV) energy demand. The system helps optimize charging station operations, improve energy resource planning, and support sustainable EV infrastructure development by accurately predicting future energy requirements.
 
-This project addresses these challenges by leveraging predictive models to estimate EV energy demand.
-
----
-
-## Features
-
-* EV Energy Demand Forecasting
-* Interactive Streamlit Dashboard
-* Data Visualization and Analysis
-* Machine Learning and Deep Learning Predictions
-* Model Performance Comparison
-* User-Friendly Prediction Interface
+The project provides an interactive Streamlit dashboard where users can visualize demand trends, compare model performance, and generate real-time energy demand predictions using Machine Learning and Deep Learning techniques.
 
 ---
 
-## Technologies Used
+## 🎯 Problem Statement
+
+The rapid adoption of Electric Vehicles has increased the demand for efficient charging infrastructure and energy resource management. Accurate energy demand forecasting helps:
+
+- Prevent charging station overloads
+- Improve charging station efficiency
+- Optimize grid load management
+- Support energy planning and sustainability
+- Enable data-driven decision making
+
+This project leverages Machine Learning and Deep Learning techniques to predict EV energy demand and support smarter energy management.
+
+---
+
+## ✨ Features
+
+- ⚡ EV Energy Demand Forecasting
+- 📊 Interactive Streamlit Dashboard
+- 📈 Real-Time Data Visualization
+- 🤖 Machine Learning & Deep Learning Models
+- 🧠 Artificial Neural Network (ANN) Prediction
+- 📉 Model Performance Comparison
+- 🌍 Global EV Infrastructure Insights
+- 📋 User-Friendly Prediction Interface
+- ☁️ Deployed on Render
+
+---
+
+## 🛠️ Technologies Used
 
 ### Programming Language
-
-* Python
+- Python
 
 ### Libraries & Frameworks
+- Streamlit
+- Pandas
+- NumPy
+- Plotly
+- Scikit-learn
+- TensorFlow
+- Joblib
 
-* Pandas
-* NumPy
-* Matplotlib
-* Scikit-learn
-* TensorFlow
-* Streamlit
-
-### Models
-
-* Linear Regression
-* Artificial Neural Network (ANN)
+### Deployment
+- Render
 
 ---
 
-## Workflow
+## 🏗️ Project Workflow
 
 1. Data Collection
 2. Data Preprocessing
@@ -61,63 +73,90 @@ This project addresses these challenges by leveraging predictive models to estim
 
 ---
 
-## Input Factors
+## 📥 Input Parameters
 
-The prediction system considers factors such as:
+The prediction model considers:
 
-* Number of Electric Vehicles
-* Charging Station Location
-* Time of Day
-* Weather Conditions
-* Day Type (Weekday/Weekend/Holiday)
-* Charging Requirements
+- 🚗 Number of Electric Vehicles
+- 📍 Charging Station Location
+- 🕒 Time of Day
+- 🌤️ Weather Conditions
+- 📅 Day Type (Weekday / Weekend / Holiday)
+- 🔌 Charging Station Capacity
 
 ---
 
-## Evaluation Metrics
+## 🤖 Models Used
+
+### Machine Learning
+- Linear Regression
+
+### Deep Learning
+- Artificial Neural Network (ANN)
+
+---
+
+## 📊 Evaluation Metrics
 
 The models are evaluated using:
 
-* Mean Absolute Error (MAE)
-* Root Mean Square Error (RMSE)
-* R² Score
+- Mean Absolute Error (MAE)
+- Root Mean Square Error (RMSE)
+- R² Score
 
 These metrics help assess prediction accuracy and model performance.
 
 ---
 
-## Applications
+## 📊 Dashboard Modules
 
-* Charging Station Management
-* Energy Resource Planning
-* Grid Load Optimization
-* EV Infrastructure Planning
-* Data-Driven Decision Making
+### 📈 Demand Prediction Dashboard
+- Demand trend visualization
+- Regional demand comparison
+- Global EV infrastructure analysis
+- Interactive charts and insights
+
+### ⚡ Predict Demand
+- User input-based demand forecasting
+- ANN-powered prediction engine
+- Capacity utilization analysis
+- Confidence score generation
+
+### 🧪 Model Evaluation
+- Model performance comparison
+- Error metric visualization
+- Best model identification
+- R² score analysis
 
 ---
 
-## Results
+## 🌍 Applications
 
-The project compares Machine Learning and Deep Learning approaches for EV energy demand forecasting and provides predictions through an interactive dashboard to support operational planning and resource optimization.
+- EV Charging Station Management
+- Energy Resource Planning
+- Grid Load Optimization
+- EV Infrastructure Development
+- Sustainable Energy Management
+- Data-Driven Decision Making
 
 ---
 
-## Installation
+## 📂 Installation
 
-Clone the repository:
+### Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/sharvani1357/EV-Energy-Demand-Prediction.git
 cd EV-Energy-Demand-Prediction
 ```
 
-Install dependencies:
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application:
+### Run the Application
 
 ```bash
 streamlit run app.py
@@ -125,19 +164,35 @@ streamlit run app.py
 
 ---
 
-## Future Enhancements
+## 🌐 Deployment
 
-* Real-time EV charging demand forecasting
-* Cloud deployment using AWS or GCP
-* Advanced deep learning architectures
-* Automated model retraining
-* Real-time monitoring dashboard
+This application is deployed on **Render** and is publicly accessible through:
 
-## App Link : 
-https://ev-energy-demand-prediction.onrender.com/
+🔗 **https://ev-energy-demand-prediction.onrender.com/**
 
 ---
 
-## Author
+## 🔮 Future Enhancements
 
-Developed as a Machine Learning and Deep Learning project for forecasting EV energy demand and supporting efficient energy management.
+- Real-Time EV Demand Forecasting
+- Advanced Deep Learning Models
+- Automated Model Retraining
+- Live Charging Station Integration
+- AWS/GCP Deployment
+- Real-Time Monitoring Dashboard
+
+---
+
+## 👨‍💻 Team
+
+This project was collaboratively developed by:
+
+- **Karnati Sharvani**
+- **Vishnu Ethineni**
+- **Khushi Bung**
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
